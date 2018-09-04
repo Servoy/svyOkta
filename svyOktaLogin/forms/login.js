@@ -17,7 +17,10 @@ function onLoad(event) {
 			responseType: ['token'],
 			display: 'page'
 		},
-		logo: 'resources/fs/' + application.getSolutionName() + '/logo.png'
+		logo: 'resources/fs/' + application.getSolutionName() + '/logo.png',
+		features: {
+			registration: true // REQUIRED for SSR
+		}
 	}
 }
 
