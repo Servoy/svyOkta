@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: svyokta
+Bundle-Name: svyokta
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+
+Name: sigininwidget/sigininwidget.spec
+Web-Component: True
+
+Name: oktawidget/oktawidget.spec
+Web-Component: True
+
