@@ -3,10 +3,30 @@
 	"displayName": "sigininwidget",
 	"version": 1,
 	"definition": "svyokta/sigininwidget/sigininwidget.js",
-	"libraries": [],
-	"model":
+	"libraries": 
+	[
+		
+	],
+
+	"model": 
 	{
-		"loginCallback": {"type": "function"},
-		"properties":{"type":"object"}
+		"properties": 
+		{
+			"type": "object"
+		}
+	},
+
+	"handlers": 
+	{
+		"loginCallback": 
+		{
+			"parameters": 
+			[
+				{
+					"name": "response",
+					"type": "object"
+				}
+			]
+		}
 	}
 }

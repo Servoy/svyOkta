@@ -1,0 +1,12 @@
+* {
+	outline: none;
+}
+
+#okta-sign-in .auth-org-logo{
+	max-width:205px!important;
+	max-height:60px!important;
+}
+
+.background {
+	background-image: linear-gradient(to bottom right, teal, orange);
+}
