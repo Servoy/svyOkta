@@ -37,4 +37,14 @@ function loginCallback(response) {
 		msg += i + ' : ' + response[i] + '<br>';
 	}
 	plugins.dialogs.showInfoDialog('Authenticated Successfully', msg)
+	security.login('admin', 1, ['Administrators'])
+}
+
+/**
+ * @public
+ * @properties={typeid:24,uuid:"79158B7D-3F48-4EC5-B643-3DA351B30D1B"}
+ */
+function logout() {
+	elements.sigininwidget.logout();
+	security.logout();
 }

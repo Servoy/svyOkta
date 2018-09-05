@@ -16,6 +16,17 @@
 		}
 	},
 
+	"api": 
+	{
+		"logout": 
+		{
+			"parameters": 
+			[
+				
+			]
+		}
+	},
+
 	"handlers": 
 	{
 		"loginCallback": 
