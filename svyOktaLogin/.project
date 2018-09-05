@@ -5,6 +5,7 @@
 	<projects>
 		<project>resources</project>
 		<project>svyokta</project>
+		<project>svyoktaservice</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

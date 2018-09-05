@@ -5,6 +5,7 @@
 	<projects>
 		<project>resource</project>
 		<project>resources</project>
+		<project>svyOktaLogin</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
