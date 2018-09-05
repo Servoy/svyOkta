@@ -15,6 +15,25 @@ onRightClickMethodID:"-1",
 text:"Log out",
 typeid:7,
 uuid:"56865376-17B9-4D18-B7FA-8A476D63D1E9"
+},
+{
+items:[
+{
+containsFormID:"D5D2289B-0235-480F-B74D-2F2089D2113F",
+location:"33,61",
+text:"login",
+typeid:15,
+uuid:"D7C0ECF5-1EB1-40D7-A72E-4377407BC0FB"
+}
+],
+location:"6,28",
+name:"tab_login",
+printable:false,
+size:"106,110",
+styleClass:"hidden",
+transparent:true,
+typeid:16,
+uuid:"E62574F3-3CAE-4232-8D9F-B5E3CADC357D"
 }
 ],
 name:"main",

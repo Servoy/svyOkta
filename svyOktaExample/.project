@@ -3,6 +3,7 @@
 	<name>svyOktaExample</name>
 	<comment></comment>
 	<projects>
+		<project>resource</project>
 		<project>resources</project>
 	</projects>
 	<buildSpec>

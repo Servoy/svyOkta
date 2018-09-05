@@ -10,6 +10,9 @@ angular.module('svyoktaSigininwidget', ['servoy']).directive('svyoktaSigininwidg
 				$scope.oktaSignin = null;
 
 				$scope.api.logout = function() {
+					if (!$scope.oktaSignin) {
+						init();
+					}
 					$scope.oktaSignin.signOut();
 				}
 
@@ -22,8 +25,7 @@ angular.module('svyoktaSigininwidget', ['servoy']).directive('svyoktaSigininwidg
 
 					//finish init
 					clearInterval(login);
-					$scope.oktaSignin = new OktaSignIn($scope.model.properties);
-
+					$scope.oktaSignin = new OktaSignIn($scope.model.properties);					
 					$scope.oktaSignin.session.get(function(res) {
 						// Session exists, show logged in state.
 						if (res.status === 'ACTIVE') {
@@ -34,7 +36,7 @@ angular.module('svyoktaSigininwidget', ['servoy']).directive('svyoktaSigininwidg
 						}
 						// No session, show the login form
 						$scope.oktaSignin.renderEl({ el: '#okta-login-container' },
-							function success(res) {
+							function success(res) {								
 								// Nothing to do in this case, the widget will automatically redirect
 								// the user to Okta for authentication, then back to this page if successful
 							},

@@ -16,3 +16,7 @@
 		background-image: none;
 	}
 }
+
+.hidden {
+	visibility: hidden;
+}
