@@ -32,11 +32,7 @@ function onLoad(event) {
  * @properties={typeid:24,uuid:"02F075DA-B52E-42F5-A83D-E7187AA46743"}
  */
 function loginCallback(response) {
-	var msg = '';
-	for (var i in response) {
-		msg += i + ' : ' + response[i] + '<br>';
-	}
-//	plugins.dialogs.showInfoDialog('Authenticated Successfully', msg)
+	scopes.login.response = response;	
 	security.login('admin', 1, ['Administrators'])
 }
 

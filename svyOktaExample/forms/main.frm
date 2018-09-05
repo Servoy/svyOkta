@@ -38,6 +38,7 @@ uuid:"E62574F3-3CAE-4232-8D9F-B5E3CADC357D"
 ],
 name:"main",
 navigatorID:"-1",
+onShowMethodID:"6797D8D8-AD9D-43CA-8E27-2A16028C8A18",
 showInMenu:true,
 typeid:3,
 uuid:"A90DF8A1-6675-4576-B855-1E1876A5FC10"
