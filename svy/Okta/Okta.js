@@ -10,13 +10,7 @@ angular.module('svyOkta', ['servoy']).factory("svyOkta", function($services, $wi
 
 			refresh: function(callback) {
 				scope.oktaSignin.session.refresh(function(res) {
-					if (res.status === 'ACTIVE') {
-						$window.executeInlineScript(callback.formname, callback.script, [res]);
-						// The session now has an extended lifetime
-					} else if (res.status === 'INACTIVE') {
-						// There is no current session, render the Sign-In Widget
-						$window.executeInlineScript(callback.formname, callback.script, [res]);
-					}
+					$window.executeInlineScript(callback.formname, callback.script, [res]);
 				});
 			},
 
