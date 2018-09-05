@@ -10,9 +10,6 @@ angular.module('svyoktaSigininwidget', ['servoy']).directive('svyoktaSigininwidg
 				$scope.oktaSignin = null;
 
 				$scope.api.logout = function() {
-					if (!$scope.oktaSignin) {
-						init();
-					}
 					$scope.oktaSignin.signOut();
 				}
 
