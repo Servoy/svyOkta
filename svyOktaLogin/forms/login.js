@@ -24,8 +24,6 @@ var signin_properties = {
  * @properties={typeid:24,uuid:"02F075DA-B52E-42F5-A83D-E7187AA46743"}
  */
 function loginCallback(response) {
-	//initialize okta service
-	plugins.svyOkta.init(signin_properties);
 	scopes.login.response = response;
 	security.login('admin', 1, ['Administrators'])
 }
@@ -40,5 +38,6 @@ function loginCallback(response) {
  * @properties={typeid:24,uuid:"F1281115-D19C-4557-B500-9730D143950A"}
  */
 function onLoad(event) {
-	elements.sigininwidget_64.properties = signin_properties;
+	//intialize and show okta login
+	plugins.svyOkta.init(signin_properties, loginCallback);
 }

@@ -4,7 +4,6 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>svyokta</project>
 		<project>svy</project>
 	</projects>
 	<buildSpec>
