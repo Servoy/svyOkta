@@ -1,7 +1,7 @@
 {
     "name": "svyOkta",
     "displayName": "Okta Auth",
-    "packageType": "Web-Component",
+    "packageType": "Web-Service",
     "icon": "https://github.com/Servoy/svyOkta/raw/master/icon.png",
     "description": "Integration of Okta's sign-in widget with Servoy",
     "wikiUrl": "https://github.com/Servoy/svyOkta/wiki",
