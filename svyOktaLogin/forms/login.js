@@ -24,6 +24,7 @@ var signin_properties = {
  * @properties={typeid:24,uuid:"02F075DA-B52E-42F5-A83D-E7187AA46743"}
  */
 function loginCallback(response) {
+	//save response
 	scopes.login.response = response;
 	security.login('admin', 1, ['Administrators'])
 }
