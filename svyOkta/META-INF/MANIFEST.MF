@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: svy
-Bundle-Name: svyokta
+Bundle-SymbolicName: svyOkta
+Bundle-Name: Okta Auth
 Bundle-Version: 1.0.0
 Package-Type: Web-Service
 
-Name: Okta/Okta.spec
+Name: svyOkta/svyOkta.spec
 Web-Service: True
 

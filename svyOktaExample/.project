@@ -4,8 +4,8 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>resource</project>
 		<project>svyOktaLogin</project>
+		<project>svyOkta</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

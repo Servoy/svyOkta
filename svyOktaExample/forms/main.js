@@ -15,7 +15,7 @@ var info;
  * @properties={typeid:24,uuid:"635D956E-180A-44BB-96DD-BE24042117F7"}
  */
 function onAction$signout(event) {
-	//log out of okta session	
+	//log out of okta session
 	plugins.svyOkta.close(logoutCB);
 }
 
