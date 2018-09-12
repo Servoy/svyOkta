@@ -39,6 +39,6 @@ function loginCallback(response) {
  * @properties={typeid:24,uuid:"F1281115-D19C-4557-B500-9730D143950A"}
  */
 function onLoad(event) {
-	//intialize and show okta login			
+	//intialize and show okta login				
 	plugins.svyOkta.init(signin_properties, loginCallback);
 }
